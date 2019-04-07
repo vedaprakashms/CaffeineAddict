@@ -1,5 +1,6 @@
 # This short script will keep mouse-clicking every 60 sec
 # for n amount of minutes to not let computer fall asleep
+# this is a modified code on top of the code found on the internet. 
 import win32api, win32con, time, random, sys
 from pynput.keyboard import Key, Controller
 
